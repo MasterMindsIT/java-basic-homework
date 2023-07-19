@@ -1,0 +1,53 @@
+public class Tarea1 {
+        public static void main(String[] args){
+            //Tipos de datos numéricos
+            byte varByte = 112;
+            byte myMinByteValue = Byte.MIN_VALUE;
+            byte myMaxByteValue = Byte.MIN_VALUE;
+            System.out.println("Byte Minimum Value 8bits -2E7 = " + myMinByteValue);
+            System.out.println("Byte Maximum Value 2E7= " + myMaxByteValue);
+
+            short varShort = 345;
+            short myMinShortValue = Short.MIN_VALUE;
+            short myMaxShortValue = Short.MAX_VALUE;
+            System.out.println("Short Minimum Value -2E15 = " + myMinShortValue);
+            System.out.println("Short Maximum Value 2E15= " + myMaxShortValue);
+
+            int varInt = 2340;
+            int minInt = Integer.MIN_VALUE;
+            int maxInt = Integer.MAX_VALUE;
+            System.out.println("int Minimum Value -2E31 = " + minInt);
+            System.out.println("int Maximum Value 2E31= " + maxInt);
+
+
+            long varLong = 34534532343453L;
+            long minLong = Long.MIN_VALUE;
+            long maxLong = Long.MAX_VALUE;
+            System.out.println("long Minimum Value -2E63 = " + minLong);
+            System.out.println("long Maximum Value 2E63= " + maxLong);
+
+
+            float varFloat = 1.23f;
+            float minFloat = Float.MIN_VALUE;
+            float maxFloat = Float.MAX_VALUE;
+            System.out.println("float Minimum Value -2E63 = " + minFloat);
+            System.out.println("float Maximum Value 2E63= " + maxLong);
+
+            double varDouble = 1343.3453134523d;
+            double minDouble = Double.MIN_VALUE;
+            double maxDouble = Double.MAX_VALUE;
+            System.out.println("double Minimum Value -2E63 = " + minDouble);
+            System.out.println("double Maximum Value 2E63= " + maxDouble);
+
+
+            //tipos de datos de texto
+            String texto = "String es un tipo de datos de texto";
+            System.out.println("el texto introducido es : " + texto);
+
+            boolean verdadero = true;
+            System.out.println("El valor de verdadero : " + verdadero);
+            boolean falso = false;
+            System.out.println("El valor de falso es " + falso);
+        }
+    }
+
