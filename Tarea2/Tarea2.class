@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Tarea1 {
+
+
+        public static void main(String[] args){
+            Scanner scanner = new Scanner(System.in);
+            System.out.print("Introducir el precio por favor: ");
+            String valor = scanner.next();
+            double price = 0;
+            try{
+                 price = Double.parseDouble(valor);
+                double priceWithTax = getPriceWithTax(price);
+                System.out.println("El precio con el 21% de iva es : " + priceWithTax);
+
+            }catch (Exception e){
+                System.out.println("Error al tratar de convertir el dato introducido" + e.getMessage());
+            }
+
+        }
+        public static double getPriceWithTax(double price){
+            return price + price * 0.21;
+        }
+    }
+
